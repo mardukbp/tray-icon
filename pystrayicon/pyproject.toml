@@ -1,0 +1,26 @@
+[project]
+name = "pystrayicon"
+version = "0.1.0"
+description = "A tray icon"
+authors = [
+    {name = "Marduk Bolaños", email = "mardukbp@mac.com"},
+]
+dependencies = [
+    "pystray>=0.19.5",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "TrayIcon"
+
+[project.scripts]
+trayicon = "TrayIcon.tray:run"
+
+[tool.pdm]
+distribution = true
