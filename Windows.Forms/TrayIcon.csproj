@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net4.6-windows</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+    <SelfContained>false</SelfContained>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ApplicationIcon>Resources/AppIcon.ico</ApplicationIcon>
+    <ApplicationManifest>App.manifest</ApplicationManifest>
+  </PropertyGroup>
+</Project>
